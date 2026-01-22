@@ -1,0 +1,61 @@
+{
+    "system": {
+        "version": "2.0.0",
+        "debug_mode": false,
+        "fullscreen": false
+    },
+    "cameras": {
+        "floor": {
+            "id": 0,
+            "width": 1280,
+            "height": 720,
+            "fps": 60,
+            "brightness": 0.5,
+            "contrast": 0.5,
+            "exposure": -5
+        },
+        "cups": {
+            "id": 1,
+            "width": 1280,
+            "height": 720,
+            "fps": 60,
+            "brightness": 0.5,
+            "contrast": 0.5,
+            "exposure": -5
+        }
+    },
+    "audio": {
+        "master_volume": 0.8,
+        "sample_rate": 44100,
+        "buffer_size": 512,
+        "current_bank": "moog_bass",
+        "channels": {
+            "ch1": {
+                "vol": 1.0,
+                "mute": false,
+                "pan": -0.5
+            },
+            "ch2": {
+                "vol": 1.0,
+                "mute": false,
+                "pan": 0.5
+            },
+            "ch3": {
+                "vol": 0.9,
+                "mute": false,
+                "pan": 0.0
+            },
+            "ch4": {
+                "vol": 0.8,
+                "mute": false,
+                "pan": 0.0
+            }
+        }
+    },
+    "visuals": {
+        "show_potentiometers": true,
+        "soft_grid": true,
+        "vector_style": true,
+        "palette": "neon"
+    }
+}

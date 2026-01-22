@@ -15,6 +15,16 @@ CAM_FPS = 60  # Try to request 60fps
 WARP_FLOOR_SIZE = 800
 WARP_CUPS_SIZE = 600
 
+# --- Cups Instrument Config ---
+NOTCH_COUNT = 8      # Musical steps (modes/scales)
+SNAP_EPS = 0.03      # Proximity to snap
+SMOOTH_ALPHA = 0.20  # EMA Smoothing factor (Lower = floatier, Higher = snappier)
+LATCH_TIMEOUT = 1.0  # Seconds to wait before resetting/fading if cup is lost (optional)
+
 # --- Keybinds ---
 KEY_QUIT = 'q'
 KEY_SAVE_CALIB = 's'
+
+# --- Audio Output (OSC) ---
+OSC_IP = "127.0.0.1"
+OSC_PORT = 8000

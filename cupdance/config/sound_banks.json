@@ -1,0 +1,64 @@
+{
+    "banks": [
+        {
+            "id": "8bit_chip",
+            "name": "Chiptune Gamer",
+            "description": "Square waves, noise percussion, fast arps.",
+            "color_palette": "green_phosphor",
+            "synths": [
+                "SquareOsc",
+                "NoiseGen",
+                "PulseLead",
+                "TriangleBass"
+            ]
+        },
+        {
+            "id": "moog_classic",
+            "name": "Analog Warmth",
+            "description": "Sawtooth waves with 24dB ladder filter emulation.",
+            "color_palette": "wood_and_gold",
+            "synths": [
+                "SawBass",
+                "MoogLead",
+                "SoftPad",
+                "FilterSweep"
+            ]
+        },
+        {
+            "id": "retro_synth",
+            "name": "Neon 80s",
+            "description": "Chorus-heavy pads and FM bells.",
+            "color_palette": "cyan_magenta",
+            "synths": [
+                "ChorusPad",
+                "FMBell",
+                "RetroBass",
+                "PolySynth"
+            ]
+        },
+        {
+            "id": "exotic_bell",
+            "name": "Glass & Metal",
+            "description": "Ring modulation and metallic disharmony.",
+            "color_palette": "silver_blue",
+            "synths": [
+                "RingMod",
+                "GlassPing",
+                "MetalDrone",
+                "Shimmer"
+            ]
+        },
+        {
+            "id": "orchestral",
+            "name": "Minimal Classic",
+            "description": "Sine waves and plucked strings.",
+            "color_palette": "warm_white",
+            "synths": [
+                "SinePure",
+                "PluckStr",
+                "CelloDrone",
+                "HarpArp"
+            ]
+        }
+    ]
+}
