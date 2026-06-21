@@ -59,3 +59,6 @@ This project is structured to evolve from a technical prototype to a touring per
 
 ---
 *Created for the 2026 Interactive Arts Residency Program.*
+## License
+
+MIT License — © 2026 [Vladimiro Bellini](https://github.com/vlasvlasvlas). Free to use and modify, attribution required.
